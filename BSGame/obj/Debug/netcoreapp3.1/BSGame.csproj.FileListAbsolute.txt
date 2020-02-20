@@ -1,0 +1,11 @@
+/home/cool/AMremoteRepository/C#/BattleShip/battle-ship-in-the-oo-way-spiacylin/BSGame/bin/Debug/netcoreapp3.1/BSGame
+/home/cool/AMremoteRepository/C#/BattleShip/battle-ship-in-the-oo-way-spiacylin/BSGame/bin/Debug/netcoreapp3.1/BSGame.deps.json
+/home/cool/AMremoteRepository/C#/BattleShip/battle-ship-in-the-oo-way-spiacylin/BSGame/bin/Debug/netcoreapp3.1/BSGame.runtimeconfig.json
+/home/cool/AMremoteRepository/C#/BattleShip/battle-ship-in-the-oo-way-spiacylin/BSGame/bin/Debug/netcoreapp3.1/BSGame.runtimeconfig.dev.json
+/home/cool/AMremoteRepository/C#/BattleShip/battle-ship-in-the-oo-way-spiacylin/BSGame/bin/Debug/netcoreapp3.1/BSGame.dll
+/home/cool/AMremoteRepository/C#/BattleShip/battle-ship-in-the-oo-way-spiacylin/BSGame/bin/Debug/netcoreapp3.1/BSGame.pdb
+/home/cool/AMremoteRepository/C#/BattleShip/battle-ship-in-the-oo-way-spiacylin/BSGame/obj/Debug/netcoreapp3.1/BSGame.csprojAssemblyReference.cache
+/home/cool/AMremoteRepository/C#/BattleShip/battle-ship-in-the-oo-way-spiacylin/BSGame/obj/Debug/netcoreapp3.1/BSGame.AssemblyInfoInputs.cache
+/home/cool/AMremoteRepository/C#/BattleShip/battle-ship-in-the-oo-way-spiacylin/BSGame/obj/Debug/netcoreapp3.1/BSGame.AssemblyInfo.cs
+/home/cool/AMremoteRepository/C#/BattleShip/battle-ship-in-the-oo-way-spiacylin/BSGame/obj/Debug/netcoreapp3.1/BSGame.dll
+/home/cool/AMremoteRepository/C#/BattleShip/battle-ship-in-the-oo-way-spiacylin/BSGame/obj/Debug/netcoreapp3.1/BSGame.pdb
