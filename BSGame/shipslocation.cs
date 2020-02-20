@@ -13,14 +13,14 @@ using System.Threading.Tasks;
         {
             Ships = new List<Ship>();
             
-            /*Ship aircar = new Carrier();
+            Ship aircar = new Carrier();
             Ships.Add(aircar);
             Ship batship = new Battleship();
             Ships.Add(batship);
             Ship cruis = new Cruiser();
             Ships.Add(cruis);
             Ship submar = new Submarine();
-            Ships.Add(submar);*/
+            Ships.Add(submar);
             Ship destr = new Destroyer();
             Ships.Add(destr);
         }

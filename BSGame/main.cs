@@ -49,9 +49,58 @@ namespace BSGame
             Console.WriteLine("Player No 2 start uncoding placement");
             GameBoard fireboard = new GameBoard();
             DisplayBoard(fireboard.Squares);
-            //Console.WriteLine( mylocation.Ships[0].Cover[0]); //wyświetla pierwszy coord Cover
-            //Console.WriteLine(myboard.Squares[12].CurrentStatus.ToString()); //wyświetla status instancji Square
-            
+            Console.WriteLine("Enter hit coordinates (ex: G3): ");
+            //fireing
+            bool notEnd = true;
+            while (notEnd)
+            {
+                
+                string inputCoord = Console.ReadLine();
+                int counter;
+                Char srow = inputCoord[0];
+                int d = 0;
+                counter = 0;
+                if (srow == 'A'){d = 0;}
+                else if (srow == 'B') {d = 10;}
+                else if (srow == 'C') {d = 20;}
+                else if (srow == 'D') {d = 30;}
+                else if (srow == 'E') {d = 40;}
+                else if (srow == 'F') {d = 50;}
+                else if (srow == 'G') {d = 60;}
+                else if (srow == 'H') {d = 70;}
+                else if (srow == 'I') {d = 80;}
+                else if (srow == 'J') {d = 90;}
+                Char scol= inputCoord[1];
+                int j = scol - '0';
+                counter = 0;
+                counter = d + j;
+                if (myboard.Squares[counter].CurrentStatus == CurrentStatus.Empty)
+                {
+                    fireboard.Squares[counter].CurrentStatus = CurrentStatus.Miss;
+                }
+                else
+                {
+                    fireboard.Squares[counter].CurrentStatus = CurrentStatus.Hit;
+                    myboard.Squares[counter].CurrentStatus = CurrentStatus.Empty;
+                }
+                counter = 0;
+                Console.Clear();
+                Console.WriteLine("Player No 2 start uncoding placement");
+                DisplayBoard(fireboard.Squares);
+                Console.WriteLine("Enter hit coordinates (ex: G3): ");
+                for (int i = 0; i <100; i++)
+                {
+                    if (myboard.Squares[i].CurrentStatus != CurrentStatus.Empty)
+                    {
+                        break;
+                    }
+                    if (i == 99)
+                    {
+                        notEnd = false;
+                    }
+
+                }
+            }
         }
 
         static void DisplayBoard(List<Square> a)
@@ -105,6 +154,5 @@ namespace BSGame
             }
             Console.WriteLine("  |--------------------|");
         }
-
     }
 }
